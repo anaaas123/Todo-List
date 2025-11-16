@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="text"], input {
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 8px;
+  min-width: 260px;
+}
+
+button {
+  padding: 0.5rem 0.85rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 8px;
+  background: linear-gradient(90deg,#7c4dff,#b628ff);
+  color: white;
+  border: none;
+  box-shadow: 0 6px 14px rgba(182,40,255,0.12);
+}

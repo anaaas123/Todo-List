@@ -1,0 +1,9 @@
+/* App container-specific styles (additional to global) */
+.app-card h1 {
+	color: #111827;
+	font-weight: 600;
+}
+
+.app-card > *:not(h1) {
+	margin-top: 1rem;
+}
